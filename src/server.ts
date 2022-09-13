@@ -1,5 +1,5 @@
-import express, {Request, Response} from 'express'
-const app = express()
+import express, {Application} from 'express'
+const app: Application = express()
 
 import {homeRoute} from './route/home'
 import {aboutRoute} from './route/about'

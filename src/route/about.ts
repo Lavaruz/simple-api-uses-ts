@@ -7,6 +7,7 @@ aboutRoute.get('/', (req: Request, res: Response): void => {
         name: 'Assami Muzaki',
         age: 20,
         hobby: 'code',
+        school: 'University of Indraprasta',
         married: false
     })
 })

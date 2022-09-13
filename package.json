@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./dist/server.js",
     "build": "tsc -p .",
-    "dev": "nodemon ./dist/server.js"
+    "dev": "nodemon --exec npx ts-node ./src/server.ts"
   },
   "keywords": [],
   "author": "",
